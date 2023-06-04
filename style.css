@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aliceblue;
+    height: 100px;
+    width: 100%;
+}
+button{
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+input{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.leftside-top, span{
+    font-size: 25px;
+    margin-top: 20px;
+    font-weight: 900;
+}
+
+.box{
+    height: 700px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.left_container{
+width: 34%;
+height:90%;
+background-color:rgba(255, 166, 0, 0.466);
+border-radius: 10px;
+box-shadow:10px 10px 20px black;
+margin-top: 10px;
+overflow-y: auto;
+text-align: center;
+}
+.left_container::-webkit-scrollbar{
+    display: none;
+}
+.right-container{    
+    height: 90%;
+    width: 65%;
+    background-color:white;
+    border-radius: 10px;
+    box-shadow:10px 10px 20px black;
+    margin-top: 10px;
+    text-align: center;
+    overflow-y: auto;
+   
+    }
+    #myh3{
+      
+        font-size: 25px;
+    }
+    #myimage{
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+       
+    }
+    #myimage:hover{
+        transform: scale(1.05);
+        transition: all 1s;
+    }
+    #mypublisher{
+        
+        
+        font-weight: 900;
+       
+    }
+    #mypublisher:hover{
+color: gray;
+transition: all  0.5s;
+    }
+
+  
+    
+    #myds:hover{
+color: gray;
+transition: all 0.5s;
+    }
+
+    #leftfoodcontainer{
+        text-align: center;
+        padding: 20px;
+        border: 5px solid black;
+        margin: 10px;
+        border-radius: 10px;
+    }
+    #myanchor{
+        text-decoration: none;
+        color: black;
+    }
+    #rightimg{
+        height: 400px;
+        margin-top: 20px;
+    }
